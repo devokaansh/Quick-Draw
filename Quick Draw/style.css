@@ -1,0 +1,21 @@
+body {
+    background-size: cover;
+}
+
+@keyframes pictureiscool {
+    from {
+        box-shadow: 40px 60px 90px rgb(255, 255, 255);
+    }
+    to {
+        box-shadow: 40px 60px 90px rgb(0, 0, 0);
+    }
+}
+
+canvas {
+    border: 5px solid rgb(243, 137, 243);
+    border-radius: 30px;
+    animation-name: pictureiscool;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin-top: 70px;
+}
